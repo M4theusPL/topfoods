@@ -1,0 +1,559 @@
+#menu{
+    display: block;
+    float: left;
+    width: 200px;
+    height: 100vh;
+    background-color: #00587a;
+    text-align: center;
+}
+
+.menuprzycisk{
+    border-bottom: 1px dashed;
+    border-color: #FFFFFF;
+    padding: 1vh;
+    display: block;
+}
+
+#menu a{
+    text-decoration: none;
+    color: #FFF;
+    font-size: 18px;
+}
+
+.menuprzycisk2{
+    border-bottom: 1px dashed;
+    border-color: #FFFFFF;
+    display: block;
+    font-size: 54px;
+}
+
+.menuprzycisk2 i{
+    margin-bottom: 10px;
+}
+
+.menuprzycisk:hover{
+    background-color: #e7e7de;
+}
+.menuprzycisk2:hover{
+    background-color: #e7e7de;
+}
+
+#menu a:hover{
+    color: #008891;
+}
+
+#pokazukryj{
+    display: none;
+}
+
+#rozwinmenu{
+    display: none;
+}
+
+#ukryjmenu{
+    display: none;
+}
+
+.tlologowanie {
+    width: 425px;
+    margin: auto;
+    margin-top: 150px;
+    box-shadow: 25px 5px 6px 2px #7b7b7b;
+}
+
+#przywitanie{
+    font-size: 27px;
+}
+
+.okienkologowanie{
+    width: 425px;
+    padding: 10px;
+    border-radius: 6px;
+    background-color: #00587a;
+    color: #FFF;
+    text-align: center;
+}
+
+.okienkologowanie input{
+    height: 24px;
+}
+
+.okienkologowanie a{
+    text-decoration: none;
+    color: #FFF;
+}
+
+.okienkologowanie label {
+    margin-left: -120px;
+}
+
+a{
+    cursor:pointer;
+}
+
+button{
+    cursor:pointer;
+}
+
+.login{
+    font-size: 17px;
+    margin: auto;
+}
+
+i{
+    margin-top: 5px;
+    padding: 6px;
+}
+
+.haslo{
+    font-size: 17px;
+    margin-top: 5px;
+}
+
+.zaloguj{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin: auto;
+    margin-top: 15px;
+    margin-bottom: 7px;
+    background-color: #e7e7de;
+    color: #00587a;
+    border-radius: 5px;
+    width: 150px;
+    font-size: 16px;
+}
+
+.zaloguj:hover{
+    background-color: #008891;
+    color: #e7e7de;
+}
+
+.napisglowny{
+    margin: auto;
+    text-align: center;
+    font-size: 27px;
+    font-weight: bold;
+    padding-top: 5px;
+    background-color: #0f3057;
+    color: #FFF;
+    height: 50px;
+    box-shadow: 1px 3px 3px #7b7b7b;
+}
+
+#formularzdodania{
+    display: none;
+    margin: auto;
+    text-align: center;
+}
+
+#formularzdodaniatlo{
+    background-color: #0f3057;
+    color: #FFF;
+    text-align: center;
+    margin: auto;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    box-shadow: 10px 3px 3px #7b7b7b;
+}
+
+#formularzdodania input{
+    margin-top: 5px;
+    border-radius: 4px;
+}
+
+#telefon{
+    color: #000;
+}
+
+#formularzdodania button{
+    text-align: center;
+    margin: auto;
+    background-color: #008891;
+    color: #e7e7de;
+    padding: 2px;
+    border-radius: 5px;
+}
+
+#formularzdodania button:hover{
+    background-color: #8f8f8f;
+    color: #16c79a;
+}
+
+#formularzdodania table{
+    margin: auto;
+    text-align: left;
+}
+#formularzdodania table input{
+    color: #000;
+    width: 164px;
+}
+
+#tabelkapracownicy table{
+    margin: auto;
+    padding-top: 25px;
+    margin-top: 25px;
+}
+
+#tabelkapracownicy td{
+    border: 1px solid black;
+    padding-left: 25px;
+    padding-right: 25px;
+    text-align: center;
+}
+
+#tabelkapracownicy table, th {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+#tabelkapracownicy th{
+    background-color: #00587a;
+    color: #FFF;
+}
+
+#tabelkapracownicy table, th, td {
+    border-collapse: collapse;
+}
+
+.naglowek{
+    font-weight: bold;
+    background-color: #8f8f8f;
+    color: white;
+}
+
+#wyswietl{
+    margin: auto;
+    text-align: center;
+    margin-top: 10px;
+}
+
+#zamknij{
+    margin: auto;
+    text-align: center;
+    display: none;
+    margin-top: 10px;
+}
+
+#zamknij #formularzdodania{
+    margin-left: 5px;
+}
+
+#wyswietl button{
+    background-color: #008891;
+    color: #e7e7de;
+    border-radius: 5px;
+    padding: 2px;
+}
+
+#zamknij button{
+    background-color: #008891;
+    color: #e7e7de;
+    border-radius: 5px;
+}
+
+#wyswietl button:hover{
+    background-color: #e7e7de;
+    color: #008891;
+}
+
+#zamknij button:hover{
+    background-color: #e7e7de;
+    color: #008891;
+}
+
+#dodaj{
+    margin-left: 10px;
+}
+
+.wpisywanie input{
+    float: left;
+}
+
+#kontener{
+    margin-left: 200px;
+    padding-bottom: 15px;
+}
+
+#tabelkarestauracje{
+    margin: auto;
+    max-width: 50%;
+    min-width: 30%;
+}
+
+.restauracja{
+    margin: auto;
+    background-color: #e7e7de;
+    border: 1px solid #EEE;
+    margin-top: 15px;
+}
+
+.restauracja:hover{
+    background-color: #e1e1d8;
+    box-shadow: 6px 5px 6px 2px #7b7b7b;
+    cursor:pointer;
+}
+
+.restauracja ul{
+    padding: 0;
+}
+
+.obrazekrestauracja img{
+    width: 75px;
+    float: left;
+    display: flex;
+    padding-left: 10px;
+    padding-right: 15px;
+    flex: 1;
+}
+
+.nazwaresturacji{
+    font-size: 17px;
+}
+
+.kuchnia{
+    font-size: 14px;
+}
+
+
+.dolrestauracje{
+    display: flex;
+    justify-content: space-between;
+    order: 3;
+}
+
+.dol{
+    text-align: left;
+    font-size: 14px;
+    flex: 1;
+}
+
+.dollokalizacja{
+    margin-right: 10px;
+    font-size: 14px;
+    flex: 1;
+}
+
+.element.style{
+    width: 120px;
+}
+
+.czas{
+    margin-bottom: 2px;
+}
+
+.react-timerange-picker__inputGroup{
+    min-width: 0 !important;
+    height: 22px !important;
+    margin-bottom: 10px;
+}
+
+.react-timerange-picker__wrapper{
+    border: 0 !important;
+}
+
+.react-timerange-picker__inputGroup__input:invalid{
+    background-color: #FFFFFF !important;
+    color: #DD0000 !important;
+}
+
+.react-tel-input .form-control{
+    width: 170px !important;
+    height: 22px !important;
+    padding-left: 38px !important;
+    border: 0px !important;
+    border-radius: 4px !important;
+    font-size: 13px !important;
+    margin-left: 1.5px !important;
+}
+
+.react-tel-input .flag-dropdown{
+    border: 0px !important;
+}
+
+.react-time-picker__inputGroup__divider{
+    padding: 2px;
+}
+
+.react-timerange-picker__range-divider{
+    padding: 1px;
+}
+
+.react-timerange-picker__inputGroup__input react-timerange-picker__inputGroup__hour{
+    min-width: 20px !important;
+}
+
+.react-timerange-picker__inputGroup__input--hasLeadingZero{
+    min-width: 20px !important;
+    padding-left: 0 !important;
+}
+
+.czas input{
+    color: #000;
+    background-color: #FFFFFF;
+}
+
+.czas button{
+    display: none;
+}
+
+.daniaokienko{
+    padding-left: 15px;
+}
+
+.nazwadania{
+    font-size: 21px;
+}
+
+.opisdania{
+    font-size: 16px;
+    font-style: italic;
+}
+
+.cena{
+    font-size: 16px;
+    color: #008891;
+    margin-top: 3px;
+}
+
+#losuj{
+    text-align: center;
+    margin: auto;
+    background-color: #008891;
+    color: #e7e7de;
+    border-radius: 5px;
+    padding: 2px;
+}
+
+#losuj:hover{
+    background-color: #e7e7de;
+    color: #008891;
+}
+
+.ilosc{
+    float: right;
+    margin-top: -40px;
+    margin-right: 10px;
+    text-align: center;
+}
+
+.ilosc output{
+    padding: 3px;
+}
+
+#podsumowaniezamowienia{
+    margin: auto;
+    margin-top: 15px;
+    background-color: #e1e1d8;
+    max-width: 50%;
+    min-width: 30%;
+}
+
+#podsumowaniezamowieniewnetrze{
+    padding: 10px;
+}
+
+.podsumowanienaglowek{
+    font-size: 21px;
+}
+
+.podsumowanieilosc{
+    margin-top: 5px;
+}
+
+@media (min-width: 700px){
+    #menu{
+        display: block;
+    }
+}
+
+ul a{
+    text-decoration: none;
+    color: #000;
+}
+
+@media (max-width: 700px){
+    #menu{
+        display: none;
+        clear: both;
+        margin: auto;
+        height: auto;
+        background-color: #00587a;
+        text-align: center;
+    }
+
+    #pokazukryj{
+        float: left;
+        width: 200px;
+        background-color: #00587a;
+        text-align: center;
+        display: block;
+    }
+
+    #pokazukryj a{
+        text-decoration: none;
+        color: #FFF;
+        font-size: 18px;
+    }
+
+    #rozwinmenu{
+        border-bottom: 1px dashed;
+        border-color: #FFFFFF;
+        padding: 1vh;
+        width: 200px;
+        display: block;
+    }
+
+    #ukryjmenu{
+        border-bottom: 1px dashed;
+        border-color: #FFFFFF;
+        padding: 1vh;
+        width: 200px;
+        display: none;
+    }
+
+    .tlologowanie {
+        padding-top: 0;
+        padding-left: 0;
+        margin: 0;
+        box-shadow: 2px ;
+        width: 100%;
+    }
+
+    .okienkologowanie{
+        width: 100%;
+        padding: 10px;
+        border-radius: 0;
+    }
+
+    #kontener{
+        margin-left: 0;
+    }
+
+    .napisglowny{
+        clear: both;
+    }
+
+    .clear{
+        clear: both;
+    }
+
+    #wyswietl button{
+        padding: 6px;
+        font-size: 14px;
+    }
+
+    #zamknij button{
+        padding: 6px;
+        font-size: 14px;
+    }
+
+    #tabelkarestauracje{
+        margin: auto;
+        max-width: 85%;
+        min-width: 60%;
+    }
+    .dolrestauracje{
+        display: flex;
+        flex-direction: column;
+    }
+}
